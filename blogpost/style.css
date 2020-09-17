@@ -1,0 +1,35 @@
+/* CSS - Cascading style sheets. 
+Defines how HTML looks. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1, h2{
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+a{
+    color: teal;
+}
+a:hover{
+    color: rgb(159, 120, 167);
+}
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
