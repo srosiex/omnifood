@@ -6,6 +6,12 @@ Defines how HTML looks. */
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .container{
     width: 1140px;
     margin-left: auto;
@@ -32,4 +38,19 @@ a:hover{
 .main-text{
     text-align: justify;
     margin-bottom: 20px;
+}
+
+.blog-post{
+    background-color: rgb(238, 236, 236);
+    width: 75%;
+    float: left;
+}
+.other-post{
+    background-color: rgb(235, 250, 235);
+    width: 25%;
+    float: left;
+}
+.author-box{
+    background-color: rgb(218, 240, 248);
+
 }
