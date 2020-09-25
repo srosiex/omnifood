@@ -1,6 +1,9 @@
 /* CSS - Cascading style sheets. 
 Defines how HTML looks. */
 
+/* Relative - position on page is determined by other elements
+Absolute can be anywhere inside parent */
+
 *{
     margin: 0;
     padding: 0;
@@ -54,4 +57,14 @@ a:hover{
 }
 .other{
     margin-bottom: 40px;
+}
+.author-text{
+    float: left;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.date{
+    position: absolute;
+    top: 0;
+    right: 500px;
 }
