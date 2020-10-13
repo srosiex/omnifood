@@ -16,6 +16,8 @@ html{
     margin: 0 auto;
 }
 
+/* HEADER */
+
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.397)), url(images/hero.jpg);
     background-size: cover;
@@ -41,6 +43,8 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* BUTTONS */
 
 .btn:link,
 .btn:visited{
@@ -78,4 +82,14 @@ h1{
 .btn-ghost:hover,
 .btn-ghost:active {
     color: white;
+}
+
+/*  NAV  */
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+}
+.main-nav{
+    float: right;
 }
